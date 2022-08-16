@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.profile{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+    box-shadow: 0 0 0 0px #ff004f;
+    transition: box-shadow 0.5s;
+}
+.profile:hover{
+    box-shadow: 0 0 0 5px #ff004f;
+
+}
+.cover{
+    display: block;
+    width: 100%;
+    border-top-right-radius: 50px;
+}
+.profile-card h1{
+    font-weight: 600;
+}
+.follow-btn{
+    display: inline-block;
+    margin: 25px 0px;
+    padding: 6px 35px;
+    border: 1px solid black;
+    color: #555;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.row h2{
+    font-size: 17px;
+}
+.view-profile{
+    width: 100%;
+
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: #ff004f;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom-left-radius: 50px;
+}
